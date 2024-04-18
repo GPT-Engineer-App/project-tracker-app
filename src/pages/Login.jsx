@@ -7,7 +7,14 @@ function Login() {
     <Center height="100vh">
       <Box p={5} shadow="md" borderWidth="1px" borderRadius="md">
         <VStack spacing={4}>
-          <Avatar size="xl" name="User" src="" />
+          <Avatar
+            size="xl"
+            icon={
+              <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L13.06 11H19L10 22L8.94 13H3L12 2Z" />
+              </svg>
+            }
+          />
           <Text fontSize="2xl" fontWeight="bold">
             My Saga
           </Text>
