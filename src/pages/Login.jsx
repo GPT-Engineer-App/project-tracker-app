@@ -24,7 +24,7 @@ function Login() {
             Login
           </Button>
         </VStack>
-        <Button position="absolute" bottom="4" right="4" colorScheme="teal">
+        <Button size="sm" fontWeight="light" colorScheme="teal">
           Forgot Password?
         </Button>
       </Box>
